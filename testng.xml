@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+  <test name="Test Report for Arun's Calculator">
+    <classes>
+      <class name="com.sampleapp.tests.selenium"/>
+    </classes>
+  </test>
+</suite>
