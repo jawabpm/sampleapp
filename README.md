@@ -13,8 +13,10 @@ How to use:
 2) Dowload this repository using git client and url as https://github.com/arunprasadmudaliar/sampleapp.git
 3) Run below commands to build, test and package application (from root directory which contains pom.xml)
 
-    a) Compile  => mvn clean compile  => Check if .java files are converted to .class files
-
+  
+    
+    a) Compile  => mvn clean compile  => Check if .java files are converted to .class files
+    
     b) Test     => mvn clean test     => Check for selenium test reports under "target/surefire-reports/Example test run/Simple Test.html"
 
     c) PMD      => mvn pmd:pmd        => Check static code analysis report created by PMD  under "target/pmd.xml"
